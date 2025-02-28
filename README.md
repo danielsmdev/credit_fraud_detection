@@ -79,7 +79,7 @@ Si deseas contribuir, puedes abrir un **pull request** o reportar un **issue**.
 
 ## 📧 Contacto
 Autor: **Daniel Sánchez McCambridge**
-- [LinkedIn](https://www.linkedin.com/in/daniel-sanchez)
-- Email: daniel.sanchez@example.com
+- [LinkedIn](http://www.linkedin.com/in/daniel-francisco-sanchez-mccambridge-81792b111/)
+- Email: danielsm.dev@gmail.com
 
 
