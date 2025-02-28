@@ -33,28 +33,13 @@ def split_data(df):
     y = df["Class"]  # Target
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
     
-    # Verificar distribución en Test (debe haber fraudes)
-    print("📌 Distribución en Test (antes de SMOTE):")
-    print(y_test.value_counts())
-
     return X_train, X_test, y_train, y_test
 
 # 5️⃣ Aplicar SMOTE solo a Train
 def balance_data(X_train, y_train):
     """Aplica SMOTE para balancear las clases en el conjunto de entrenamiento."""
     smote = SMOTE(random_state=42)
-
-    # Verificar distribución en Train antes de SMOTE
-    print("📌 Distribución en Train (antes de SMOTE):")
-    print(y_train.value_counts())
-
-    # Aplicar SMOTE solo en el conjunto de entrenamiento
     X_train_balanced, y_train_balanced = smote.fit_resample(X_train, y_train)
-
-    # Verificar distribución después de SMOTE
-    print("📌 Distribución en Train (después de SMOTE):")
-    print(y_train_balanced.value_counts())
-
     return X_train_balanced, y_train_balanced
 
 # 🚀 Función principal para procesar los datos
