@@ -20,9 +20,9 @@ fraude_financiero/
 │   ├── processed/     # Datos preprocesados
 │── notebooks/         # Notebooks de Jupyter
 │   ├── 01_EDA.ipynb   # Exploración de datos
-│   ├── 02_Preprocessing.ipynb # Modelos de Machine Learning
-│   ├── 03_Model_Training.ipynb # Modelos de Machine Learning
-│   ├── 04_Evaluation.ipynb # Modelos de Machine Learning
+│   ├── 02_Preprocessing.ipynb # Preprocesamiento de los datos
+│   ├── 03_Model_Training.ipynb # Entrenamiento de los modelos de Machine Learning
+│   ├── 04_Evaluation.ipynb # Evaluación de los modelos de Machine Learning
 │── src/               # Código fuente
 │   ├── data_prep.py   # Preprocesamiento de datos
 │   ├── train_model.py # Entrenamiento del modelo
